@@ -1,0 +1,85 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 60px 20px;
+
+  font-family: "Poppins", sans-serif;
+
+  background: #f3f4f6;
+}
+
+h1 {
+  margin-bottom: 30px;
+
+  font-size: 36px;
+  font-weight: 600;
+
+  color: #111827;
+}
+
+main {
+  width: 100%;
+  max-width: 600px;
+}
+
+/* Accordion Header */
+.accordion {
+  background: white;
+
+  padding: 18px 22px;
+
+  margin-bottom: 10px;
+
+  border-radius: 14px;
+
+  font-size: 18px;
+  font-weight: 600;
+
+  color: #111827;
+
+  cursor: pointer;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+
+  transition: all 0.2s ease;
+}
+
+.accordion:hover {
+  background: #2563eb;
+  color: white;
+
+  transform: translateY(-2px);
+}
+
+/* Accordion Content */
+.panel {
+  display: none;
+
+  background: white;
+
+  margin-top: -2px;
+  margin-bottom: 18px;
+
+  padding: 20px;
+
+  border-radius: 0 0 14px 14px;
+
+  color: #4b5563;
+
+  line-height: 1.7;
+
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
